@@ -1,0 +1,4 @@
+#每行对应一个Tomcat,参数间请用管道符号间隔
+#用于验证Tomcat的HTTP_URL|待验证的HTTPCode|Tomcat根目录|钉钉通知提示语(仅支持英文,不支持\!)|是否重启(y是，其他否)
+http://127.0.0.1:8102/|404|F:\TomcatServices\tomcat1|Errormsg1|y
+http://127.0.0.1:8080/|200|F:\TomcatServices\tomcat2|Errormsg2|n
